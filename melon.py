@@ -32,3 +32,5 @@ songs = []
 
 
 # 멜론 차트 100 중에서 노래 한 곡 추천 해주는 서비스 만들기
+ai_song = random.choice(songs)
+print(f"추천곡은 {ai_song[1]} - ({ai_song[2]}) 입니다.")
